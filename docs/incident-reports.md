@@ -1,4 +1,4 @@
-# 🛡️ Detection & Incident Report Portfolio
+Detection & Incident Report Portfolio
 **Environment:** 3-VM Home Lab (Kali Linux Attacker, Windows 11 Victim, Wazuh-Manager2 SIEM)  
 **Date:** July 20, 2026  
 
@@ -55,13 +55,15 @@ Microsoft Defender Antivirus detected and quarantined an EICAR test file downloa
 The default Wazuh agent `ossec.conf` did not include the Windows Defender operational channel. 
 
 **Fix:** Added the following configuration block to `ossec.conf` and restarted the Wazuh agent service:
-```xml
-```xml
+
+xml
 <localfile>
   <location>Microsoft-Windows-Windows Defender/Operational</location>
   <log_format>eventchannel</log_format>
 </localfile>
-Report 3: Detection Gap Analysis – Network Port Scanning
+End-to-end detection from Windows Event ID 1117 to Wazuh Rule 62124 was confirmed upon re-testing.
+
+🔍 Report 3: Detection Gap Analysis – Network Port Scanning
 Report ID: FIND-003
 
 Date/Time: July 20, 2026
