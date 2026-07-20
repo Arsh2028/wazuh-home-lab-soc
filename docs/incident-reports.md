@@ -56,7 +56,7 @@ The default Wazuh agent `ossec.conf` did not include the Windows Defender operat
 
 **Fix:** Added the following configuration block to `ossec.conf` and restarted the Wazuh agent service:
 
-xml
+``xml
 <localfile>
   <location>Microsoft-Windows-Windows Defender/Operational</location>
   <log_format>eventchannel</log_format>
