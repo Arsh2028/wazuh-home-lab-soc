@@ -173,8 +173,7 @@ Planned enhancements include:
 ## Screenshots
 
 ### VirtualBox Lab Infrastructure
-![VirtualBox Lab Architecture](screenshots/screenshot%202026-07-21%20000535.png)
-
+![VirtualBox Lab Architecture](screenshots/virtualbox-lab.png)
 ### Wazuh SIEM Dashboard Overview
 ![Wazuh Dashboard Overview](screenshots/wazuh-dashboard-overview.png)
 
