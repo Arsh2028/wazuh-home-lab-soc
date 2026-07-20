@@ -167,12 +167,23 @@ Planned enhancements include:
 * Log forwarding from additional Linux systems
 * Dashboard customization
 * Incident response playbooks
-
+* 
 ---
 
 ## Screenshots
 
-> *(To be added)*
+### VirtualBox Lab Infrastructure
+![VirtualBox Lab Architecture](screenshots/screenshot%202026-07-21%20000535.png)
+
+### Wazuh SIEM Dashboard Overview
+![Wazuh Dashboard Overview](screenshots/wazuh-dashboard-overview.png)
+
+* Agent Status & Telemetry
+* Security Alerts Breakdown
+* Nmap & Attack Simulation Detections
+* Windows Event Log Analysis
+
+---
 
 * Lab topology
 * VirtualBox configuration
