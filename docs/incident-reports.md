@@ -56,13 +56,12 @@ The default Wazuh agent `ossec.conf` did not include the Windows Defender operat
 
 **Fix:** Added the following configuration block to `ossec.conf` and restarted the Wazuh agent service:
 ```xml
+```xml
 <localfile>
   <location>Microsoft-Windows-Windows Defender/Operational</location>
   <log_format>eventchannel</log_format>
 </localfile>
-End-to-end detection from Windows Event ID 1117 to Wazuh Rule 62124 was confirmed upon re-testing.
-
-🔍 Report 3: Detection Gap Analysis – Network Port Scanning
+Report 3: Detection Gap Analysis – Network Port Scanning
 Report ID: FIND-003
 
 Date/Time: July 20, 2026
